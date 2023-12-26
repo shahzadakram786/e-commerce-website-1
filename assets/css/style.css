@@ -185,6 +185,7 @@
   gap: 11rem;
 } */
 .cardsp {
+  padding-top:10px ;
   display: flex;
  justify-content: space-between;
 }
@@ -344,7 +345,8 @@
 }
 /* /////////////footer////////// */
 .foot {
-  height: 13vh;
+  /* height: 13vh; */
+  padding: 2em;
   width: 100%;
   display: flex;
   justify-content: center;

@@ -358,7 +358,8 @@ transition: all 0.3s linear;
 }
 /* ///foot// */
 .foot{
-    height: 13vh;
+    /* height: ; */
+    padding: 2em;
     width: 100%;
      display: flex;
      justify-content: center;
