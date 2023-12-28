@@ -196,13 +196,17 @@
   background-color: black;
   border-radius: 0.25rem;
   height: 16.0625rem;
-  width: 23.6rem;
+  width: 100%;
+  /* width: 23.6rem; */
 }
 .cards-p1 > img {
   height: 16.0625rem;
-  width: 23.6rem;
+  width: 100%;
+  display: block;
+  margin: auto;
+
   border-radius: 0.25rem;
-  object-fit: cover;
+ 
   transition: all 0.3s linear;
 }
 
