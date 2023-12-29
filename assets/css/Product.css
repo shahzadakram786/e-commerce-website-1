@@ -378,8 +378,8 @@ transition: all 0.3s linear;
     width:12%;
 }
 .hover>img{
-
-    height: 1.3rem;
+    padding: 5px 0;
+    height: 2rem;
 }
 
 .hover > * {
