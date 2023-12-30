@@ -4,6 +4,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
+.hover>img{
+    height: 30px;
+    width: 12%;
+}
 }
 @media only screen and (max-width: 900px){
     .section2{
@@ -63,6 +67,10 @@
     .chk-cont>input{
         display: inline-block;
     }
+    .hover>img{
+        height: 40px;
+        width: 8%;
+    }
 
   }
     /* ////// */
@@ -84,6 +92,10 @@ width: 100%;
     .hover{
         display: none;
     }
+    .hover>img{
+        width: 10%;
+    }
+    
 }
 @media only screen and (max-width: 500px){
    
