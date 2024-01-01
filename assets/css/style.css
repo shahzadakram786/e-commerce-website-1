@@ -45,6 +45,7 @@
   padding: 1.5rem;
   letter-spacing: 2px;
   font-weight: 100;
+  transition: all 2s ease-in-out;
 }
 .nav-btns {
   display: flex;
