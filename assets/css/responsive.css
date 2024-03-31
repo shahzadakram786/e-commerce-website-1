@@ -1,129 +1,124 @@
 @media only screen and (max-width: 1200px) {
-  .section1-cont {
-    /* width: 90%; */
-    display: inline-block;
-    gap: 8rem;
-  }
-  .f2-img2 {
-    display: none;
-  }
-  .f2-img1 {
-    display: none;
-  }
-  .f1 {
-    /* place-items: center; */
-  }
-  .nav-cont {
-    display: flex;
-    align-items: center;
-    height: 5rem;
-    justify-content: flex-start;
-  }
-  
-  .f6 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-    gap: 1rem 3rem;
-    position: static;
-  }
-  .section3-cont {
-    height: 100%;
-  }
-  .f5 {
-    gap: 26px;
-  }
-  .f5 > h1 {
-    font-size: 1.6rem;
-  }
-  .f8 {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    align-items: flex-start;
-  }
-  .section4 {
-    height: auto;
-    width: 100%;
-    padding: 10em 0;
-    /* padding-top: 0px; */
-    
-  }
+    .section1-cont {
+        /* width: 90%; */
+        display: inline-block;
+        gap: 8rem;
+    }
+    .f2-img2 {
+        display: none;
+    }
+    .f2-img1 {
+        display: none;
+    }
+    .nav-cont {
+        display: flex;
+        align-items: center;
+        height: 5rem;
+        justify-content: flex-start;
+    }
+    .f6 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        gap: 1rem 3rem;
+        position: static;
+    }
+    .section3-cont {
+        height: 100%;
+    }
+    .f5 {
+        gap: 26px;
+    }
+    .f5>h1 {
+        font-size: 1.6rem;
+    }
+    .f8 {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        align-items: flex-start;
+    }
+    .section4 {
+        height: auto;
+        width: 100%;
+        padding: 10em 0;
+        /* padding-top: 0px; */
+    }
 }
-@media only screen and (max-width: 900px) {
-  .section1-cont {
-    width: 79%;
-  }
 
-  .f1 > p {
-    font-size: 1.1rem;
-    line-height: 2.5rem;
-    color: #617d98;
-  }
-  .f6 {
-    display: grid;
-    /* grid-template-columns: repeat(1,1fr); */
-    text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  }
-  .f5 {
-    display: grid;
-  }
-  .f5 > h1 {
-    font-size: 1.6rem;
-    width: 17rem;
-  }
-  .section3-cont {
-    height: 100%;
-    gap: 3rem;
-  }
-  /* .f6-cards>p{
+@media only screen and (max-width: 900px) {
+    .section1-cont {
+        width: 79%;
+    }
+    .f1>p {
+        font-size: 1.1rem;
+        line-height: 2.5rem;
+        color: #617d98;
+    }
+    .f6 {
+        display: grid;
+        /* grid-template-columns: repeat(1,1fr); */
+        text-align: center;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    }
+    .f5 {
+        display: grid;
+    }
+    .f5>h1 {
+        font-size: 1.6rem;
+        width: 17rem;
+    }
+    .section3-cont {
+        height: 100%;
+        gap: 3rem;
+    }
+    /* .f6-cards>p{
     font-size: 1rem;
     text-wrap: wrap;
 } */
-.nav-links {
-  display: none;
+    .nav-links {
+        display: none;
+    }
+    .nav-btns {
+        display: none;
+    }
 }
-.nav-btns {
-  display: none;
-}
-}
+
 @media only screen and (max-width: 660px) {
-   .container{
-    overflow: hidden;
-   }
+    .container {
+        overflow: hidden;
+    }
     .f1 {
         place-items: center;
     }
-    
     .section3-cont {
         display: block;
         width: 23rem;
     }
-    .section4{
+    .section4 {
         height: 100%;
     }
     .f8-2>input {
-    width: 100%;
+        width: 100%;
     }
     .section3 {
         display: flex;
-        justify-content: center;}
-        .f7-h1{
-            text-wrap: wrap;
-        }
-        .f1>p{
-    width:100%;
-    text-align: center;
-        }
-        .f7>h1{
-            text-wrap:wrap ;
-        }
-        .f8-1>p{
-            text-wrap: wrap;
-        }
-        .main-cont{
-          align-items:start;
-        }
+        justify-content: center;
+    }
+    .f7-h1 {
+        text-wrap: wrap;
+    }
+    .f1>p {
+        width: 100%;
+        text-align: center;
+    }
+    .f7>h1 {
+        text-wrap: wrap;
+    }
+    .f8-1>p {
+        text-wrap: wrap;
+    }
+    .main-cont {
+        align-items: start;
+    }
 }
-

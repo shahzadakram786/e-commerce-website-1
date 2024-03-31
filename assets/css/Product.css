@@ -55,6 +55,18 @@ padding: 1.5rem;
 letter-spacing: 2px;
 font-weight: 100;
 }
+
+
+
+/* for the navigations buttons  */
+
+
+#products{
+    /* background-color: red; */
+    border-bottom: 2px solid #C5A491 ;
+
+
+}
 .nav-btns{
     display: flex;
  align-items: center;

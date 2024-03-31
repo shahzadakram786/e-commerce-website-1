@@ -52,6 +52,23 @@ font-weight: 100;
  align-items: center;
 
 }
+
+
+/* for the nav buttons */
+
+
+
+#about{
+    /* background-color: red; */
+    border-bottom: 2px solid #C5A491 ;
+
+}
+
+
+
+
+
+
 .nav-btns>div{
     display: flex;
     padding:0rem 1rem;
